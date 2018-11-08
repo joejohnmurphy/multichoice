@@ -1,0 +1,67 @@
+
+body {
+    background: black;
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.inputs{
+    float:left;
+    width:50%;
+    overflow:hidden;
+    margin-bottom: 50px;
+}
+
+.btn {
+    /* the look of the buttons */
+    display: inline-block;
+    margin: 2px;
+    padding: 5px 15px;
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.btn:focus {
+    /* invert the button that has focus */
+    background: white;
+    color: black;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.problem,
+#ans {
+    border-bottom: 1px solid #ffffff;
+    flex-grow: 8;
+    margin-left: 10px;
+}
+
+.backToStart{
+    margin-bottom: 100px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.choiceInput, .questionInput{
+    margin: 15px 0px 15px 0px;
+}
+
+#start{
+    background-color: #2f9e38;
+    margin: 0px 0px 20px 0px;
+}
+
+#end{
+    background-color: #b7222c;
+}
